@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
 import { Phone, Mail, MapPin, Clock, ExternalLink } from 'lucide-react'
+import logoDark from '../../assets/nemo-notary/logo-dark.jpeg'
 
 const nemoBusinesses = [
-  { href: '/senior-services', label: 'NeMo Senior Services' },
-  { href: '/neighbors', label: 'NeMo Neighbors' },
+  { href: 'https://52nemos.com/senior-services', label: 'NeMo Senior Services' },
+  { href: 'https://52nemos.com/neighbors', label: 'NeMo Neighbors' },
 ]
 
 export function Footer() {
@@ -14,10 +16,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">
-              Nemo<span className="text-accent-400">Notary</span>
-              <span className="text-primary-300 text-lg font-normal ml-1">Etc.</span>
-            </h3>
+            <img
+              src={logoDark}
+              alt="Nemo Notary Etc."
+              className="h-20 w-auto mb-4"
+            />
             <p className="text-primary-200 leading-relaxed">
               Professional mobile notary services serving North DFW.
               We bring convenience and care to every appointment.
@@ -51,7 +54,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3 text-primary-200">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-1" />
-                <span>Serving North DFW: Addison, Carrollton, Garland, Murphy, Dallas, Plano</span>
+                <span>Serving North DFW</span>
               </li>
             </ul>
           </div>
@@ -80,7 +83,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#services"
+                  href="/#services"
                   className="text-primary-200 hover:text-white transition-colors"
                 >
                   Our Services
@@ -88,7 +91,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#about"
+                  href="/#about"
                   className="text-primary-200 hover:text-white transition-colors"
                 >
                   About Us
@@ -96,23 +99,23 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#areas"
+                  href="/#areas"
                   className="text-primary-200 hover:text-white transition-colors"
                 >
                   Service Areas
                 </a>
               </li>
               <li>
-                <a
-                  href="#blog"
+                <Link
+                  to="/blog"
                   className="text-primary-200 hover:text-white transition-colors"
                 >
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="text-primary-200 hover:text-white transition-colors"
                 >
                   Contact
@@ -127,6 +130,8 @@ export function Footer() {
                 <li key={business.href}>
                   <a
                     href={business.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-primary-200 hover:text-white transition-colors"
                   >
                     <ExternalLink className="w-4 h-4" />

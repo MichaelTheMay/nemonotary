@@ -1,5 +1,6 @@
-import { Phone, Shield, Clock, Heart, Calendar, MapPin } from 'lucide-react'
+import { Phone, Shield, Clock, Calendar, MapPin } from 'lucide-react'
 import { Button } from '../ui/Button'
+import flyerImage from '../../assets/nemo-notary/flyer.png'
 
 const trustBadges = [
   { icon: Shield, text: 'Licensed & Insured' },
@@ -49,20 +50,14 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Image Placeholder - Ready for brand image */}
+          {/* Hero Image - Flyer */}
           <div className="relative">
-            <div className="bg-primary-100 rounded-2xl aspect-[4/3] flex items-center justify-center overflow-hidden">
-              <div className="text-center p-8">
-                <div className="w-24 h-24 bg-primary-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <Heart className="w-12 h-12 text-primary-600" />
-                </div>
-                <p className="text-primary-700 text-lg font-medium">
-                  Professional, Caring Service
-                </p>
-                <p className="text-primary-500 mt-2 text-sm">
-                  Serving Addison, Carrollton, Garland, Murphy, Dallas, Plano
-                </p>
-              </div>
+            <div className="rounded-2xl overflow-hidden shadow-xl">
+              <img
+                src={flyerImage}
+                alt="Nemo Notary Etc. - Signing Agent & Mobile Notary serving North DFW"
+                className="w-full h-auto"
+              />
             </div>
             {/* Decorative elements with brand colors */}
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent-200 rounded-full -z-10" />
