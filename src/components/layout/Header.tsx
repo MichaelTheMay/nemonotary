@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Phone, Menu, X, ChevronDown, Calendar } from 'lucide-react'
 import { Button } from '../ui/Button'
+import logoLight from '../../assets/nemo-notary/logo-light.jpeg'
 
 const navLinks = [
   { href: '#services', label: 'Services' },
@@ -24,11 +25,12 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-primary-800">
-              Nemo<span className="text-accent-500">Notary</span>
-              <span className="text-primary-600 text-lg font-normal ml-1">Etc.</span>
-            </span>
+          <a href="#" className="flex items-center">
+            <img
+              src={logoLight}
+              alt="Nemo Notary Etc. - Mobile Notary Services in North DFW"
+              className="h-16 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation */}

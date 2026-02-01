@@ -7,6 +7,7 @@ export interface BlogPost {
   date: string
   category: string
   slug: string
+  image?: string
 }
 
 interface BlogCardProps {
@@ -16,9 +17,19 @@ interface BlogCardProps {
 export function BlogCard({ post }: BlogCardProps) {
   return (
     <article className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
-      {/* Placeholder Image */}
-      <div className="h-48 bg-gradient-to-br from-primary-100 to-primary-50 flex items-center justify-center">
-        <span className="text-primary-400 text-sm">Blog Image</span>
+      {/* Image */}
+      <div className="h-48 bg-gradient-to-br from-primary-100 to-primary-50 overflow-hidden">
+        {post.image ? (
+          <img
+            src={post.image}
+            alt={post.title}
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center">
+            <span className="text-primary-400 text-sm">Blog Image</span>
+          </div>
+        )}
       </div>
 
       <div className="p-6">

@@ -10,6 +10,7 @@ const recentPosts: BlogPost[] = [
     date: 'January 28, 2026',
     category: 'Notary Tips',
     slug: 'documents-requiring-notarization-texas',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop',
   },
   {
     id: '2',
@@ -18,6 +19,7 @@ const recentPosts: BlogPost[] = [
     date: 'January 15, 2026',
     category: 'Senior Services',
     slug: 'essential-legal-documents-seniors',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop',
   },
   {
     id: '3',
@@ -26,6 +28,7 @@ const recentPosts: BlogPost[] = [
     date: 'January 5, 2026',
     category: 'Mobile Notary',
     slug: 'benefits-mobile-notary-services',
+    image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop',
   },
 ]
 

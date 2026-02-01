@@ -1,13 +1,18 @@
 import { MapPin, Phone } from 'lucide-react'
 import { Button } from '../ui/Button'
 
+// Service areas from official brand flyer
 const serviceAreas = [
   'Addison',
   'Carrollton',
+  'Dallas',
+  'Farmers Branch',
+  'Frisco',
   'Garland',
   'Murphy',
-  'Dallas',
   'Plano',
+  'Richardson',
+  'Wylie',
 ]
 
 const locationTypes = [
@@ -43,13 +48,13 @@ export function ServiceArea() {
                 Cities We Serve
               </h3>
             </div>
-            <ul className="grid grid-cols-2 gap-4">
+            <ul className="grid grid-cols-2 gap-3">
               {serviceAreas.map((area) => (
                 <li
                   key={area}
                   className="flex items-center gap-2 text-text-secondary text-lg"
                 >
-                  <span className="w-2 h-2 bg-accent-500 rounded-full" />
+                  <span className="w-2 h-2 bg-accent-500 rounded-full flex-shrink-0" />
                   {area}
                 </li>
               ))}
@@ -70,7 +75,7 @@ export function ServiceArea() {
                   key={location}
                   className="flex items-center gap-3 text-text-secondary text-lg"
                 >
-                  <span className="w-3 h-3 bg-primary-600 rounded-full" />
+                  <span className="w-3 h-3 bg-primary-600 rounded-full flex-shrink-0" />
                   {location}
                 </li>
               ))}
