@@ -1,6 +1,6 @@
 import { Phone, Shield, Clock, Calendar, MapPin } from 'lucide-react'
 import { Button } from '../ui/Button'
-import flyerImage from '../../assets/nemo-notary/flyer.png'
+import heroImage from '../../assets/nemo-notary/hero-image.png'
 
 const trustBadges = [
   { icon: Shield, text: 'Licensed & Insured' },
@@ -50,12 +50,12 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Hero Image - Flyer */}
+          {/* Hero Image */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img
-                src={flyerImage}
-                alt="Nemo Notary Etc. - Signing Agent & Mobile Notary serving North DFW"
+                src={heroImage}
+                alt="Professional mobile notary helping elderly couple with document signing at their home"
                 className="w-full h-auto"
               />
             </div>
