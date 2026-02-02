@@ -64,12 +64,12 @@ export function Contact() {
                 <h3 className="text-xl font-semibold text-primary-900">Hours</h3>
               </div>
               <ul className="space-y-2 text-text-secondary">
-                <li>Monday - Friday: 8am - 7pm</li>
-                <li>Saturday: 9am - 5pm</li>
-                <li>Sunday: By appointment</li>
+                <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+                <li>Saturday: 8:00 AM - 5:00 PM</li>
+                <li>Sunday: Closed</li>
               </ul>
               <p className="text-accent-700 font-medium mt-3">
-                Emergency appointments available
+                After hours appointments available
               </p>
             </div>
           </div>

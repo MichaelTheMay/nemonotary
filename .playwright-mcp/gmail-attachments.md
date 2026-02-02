@@ -1,0 +1,387 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e2064]: Conversation opened. 1 read message.
+  - generic [ref=e11]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - link "Skip to content" [ref=e15] [cursor=pointer]:
+          - /url: ""
+        - link "Using Gmail with screen readers" [ref=e16] [cursor=pointer]:
+          - /url: ""
+      - heading [level=1] [ref=e18]:
+        - banner [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - button "Main menu" [expanded] [ref=e22] [cursor=pointer]:
+                - img [ref=e23]
+              - link "Gmail" [ref=e27] [cursor=pointer]:
+                - /url: "#inbox"
+                - img [ref=e28]
+            - generic [ref=e29]:
+              - search [ref=e31]:
+                - heading "Search" [level=2] [ref=e32]
+                - table [ref=e1690]:
+                  - rowgroup [ref=e1691]:
+                    - row [ref=e2259]:
+                      - cell [ref=e2260]:
+                        - textbox "Ask Gmail" [ref=e1694]
+                - button "Advanced search options" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search mail" [ref=e38] [cursor=pointer]:
+                  - img [ref=e1695]
+              - generic [ref=e42]:
+                - button "Support" [ref=e1698] [cursor=pointer]:
+                  - img [ref=e1699]
+                - button "Settings" [ref=e46] [cursor=pointer]:
+                  - img [ref=e47]
+            - generic [ref=e51]:
+              - button "Google apps" [ref=e55] [cursor=pointer]:
+                - img [ref=e56]
+              - 'button "Google Account: Michael May (michael.mm.may@gmail.com)" [ref=e61] [cursor=pointer]':
+                - img [ref=e63]
+                - img [ref=e69]
+      - alert [ref=e72]
+    - generic [ref=e75]:
+      - navigation [ref=e76]:
+        - button "Compose" [ref=e79] [cursor=pointer]
+        - generic [ref=e85]:
+          - generic "Labels" [ref=e87]:
+            - heading "Labels" [level=2] [ref=e88]
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - generic [ref=e92]:
+                  - generic [ref=e1706]:
+                    - link "Inbox 4455 unread" [ref=e1708] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#inbox
+                      - text: Inbox
+                    - generic [ref=e1709]: 4,455
+                  - link "Starred" [ref=e1716] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#starred
+                  - link "Snoozed" [ref=e1723] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#snoozed
+                  - link "Important" [ref=e1730] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#imp
+                  - link "Sent" [ref=e1737] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#sent
+                  - link "Scheduled" [ref=e1744] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#scheduled
+                  - generic [ref=e1749]:
+                    - link "Drafts 159 unread" [ref=e1751] [cursor=pointer]:
+                      - /url: https://mail.google.com/mail/u/0/#drafts
+                      - text: Drafts
+                    - generic [ref=e1752]: "159"
+                  - link "All Mail" [ref=e1759] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#all
+                - generic [ref=e1764]:
+                  - link "Purchases 629 unread has menu" [ref=e1766] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#category/purchases
+                    - text: Purchases
+                  - generic [ref=e1767]: "629"
+              - button "More labels" [ref=e162] [cursor=pointer]:
+                - generic [ref=e163]: More
+          - generic [ref=e166]:
+            - heading "Labels" [ref=e167]
+            - button "Create new label" [ref=e168] [cursor=pointer]
+          - generic "Labels" [ref=e170]:
+            - heading "Labels" [level=2] [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e175]:
+                - generic [ref=e1772]:
+                  - link "Financial_Notification 20 unread has menu" [ref=e1774] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#label/Financial_Notification
+                    - text: Financial_Notification
+                  - generic [ref=e1775]: "20"
+                - generic [ref=e1780]:
+                  - link "Github 14430 unread has menu" [ref=e1782] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#label/Github
+                    - text: Github
+                  - generic [ref=e1783]: 14,430
+                - link "Newsletters has menu" [ref=e1790] [cursor=pointer]:
+                  - /url: https://mail.google.com/mail/u/0/#label/Newsletters
+                  - text: Newsletters
+                - link "Notes has menu" [ref=e1797] [cursor=pointer]:
+                  - /url: https://mail.google.com/mail/u/0/#label/Notes
+                  - text: Notes
+                - generic [ref=e1802]:
+                  - link "Security Alerts 225 unread has menu" [ref=e1804] [cursor=pointer]:
+                    - /url: https://mail.google.com/mail/u/0/#label/Security+Alerts
+                    - text: Security Alerts
+                  - generic [ref=e1805]: "225"
+              - button "More labels" [ref=e215] [cursor=pointer]:
+                - generic [ref=e216]: More
+      - generic [ref=e223]:
+        - generic [ref=e3724]:
+          - generic [ref=e3726]:
+            - button "Back to All Mail" [ref=e3728] [cursor=pointer]
+            - generic [ref=e3731]:
+              - button "Archive" [ref=e3732] [cursor=pointer]
+              - button "Report spam" [ref=e3735] [cursor=pointer]
+              - button "Delete" [ref=e3738] [cursor=pointer]
+            - generic [ref=e3741]:
+              - button "Mark as unread" [ref=e3742] [cursor=pointer]:
+                - img [ref=e3744]
+              - button "Move to Inbox" [ref=e3746] [cursor=pointer]
+            - button "More email options" [ref=e3750] [cursor=pointer]
+          - generic [ref=e3753]:
+            - generic [ref=e3755]:
+              - generic [ref=e3756]: 17 of 97,043
+              - button "Newer" [ref=e3757] [cursor=pointer]
+              - button "Older" [ref=e3758] [cursor=pointer]
+            - generic [ref=e3762]:
+              - button "Input tools on/off (Ctrl-Shift-K)" [ref=e3763] [cursor=pointer]
+              - button "Select input tool" [ref=e3765] [cursor=pointer]
+        - main [ref=e3767]:
+          - generic [ref=e3769]:
+            - generic [ref=e3771]:
+              - generic [ref=e3773]:
+                - generic [ref=e3774]:
+                  - button "Print all" [ref=e3775] [cursor=pointer]:
+                    - img [ref=e3778]
+                  - tooltip [ref=e3781]: Print all
+                - generic [ref=e3782]:
+                  - button "In new window" [ref=e3783] [cursor=pointer]:
+                    - img [ref=e3786]
+                  - tooltip [ref=e3789]: In new window
+              - generic [ref=e3791]:
+                - heading "(no subject)" [active] [level=2] [ref=e3792]
+                - generic [ref=e3793]:
+                  - switch "Important mainly because it was sent directly to you" [checked] [ref=e3794] [cursor=pointer]
+                  - generic [ref=e3796] [cursor=pointer]:
+                    - generic [ref=e3797]:
+                      - button "Search for all messages with label Inbox" [ref=e3798]: Inbox
+                      - tooltip [ref=e3799]: Search for all messages with label Inbox
+                    - generic [ref=e3800]:
+                      - button "Remove label Inbox from this conversation" [ref=e3801]: ×
+                      - tooltip [ref=e3802]: Remove label Inbox from this conversation
+            - generic [ref=e3804]:
+              - button "Summarize this email" [ref=e3808] [cursor=pointer]:
+                - generic [ref=e3811]: Summarize this email
+                - img [ref=e3814]
+              - list [ref=e3816]:
+                - listitem [ref=e3817]:
+                  - generic [ref=e3823]:
+                    - img [ref=e3827]
+                    - generic [ref=e3828]:
+                      - table [ref=e3830]:
+                        - rowgroup [ref=e3831]:
+                          - row "This message was replied to. Michael May michael.mm.may@gmail.com Attachments 9:36 AM (3 hours ago) Not starred Add reaction Reply More message options" [ref=e3832]:
+                            - cell "This message was replied to. Michael May michael.mm.may@gmail.com" [ref=e3833]:
+                              - table [ref=e3834]:
+                                - rowgroup [ref=e3835]:
+                                  - row "This message was replied to. Michael May michael.mm.may@gmail.com" [ref=e3836]:
+                                    - cell "This message was replied to. Michael May michael.mm.may@gmail.com" [ref=e3837]:
+                                      - generic "This message was replied to." [ref=e3838]
+                                      - heading "Michael May michael.mm.may@gmail.com" [level=3] [ref=e3839]:
+                                        - gridcell "Michael May michael.mm.may@gmail.com" [ref=e3840]:
+                                          - generic [ref=e3841]: Michael May
+                                          - generic [ref=e3842]: <michael.mm.may@gmail.com>
+                                      - heading [level=3]
+                            - cell "Attachments 9:36 AM (3 hours ago) Not starred" [ref=e3843]:
+                              - generic [ref=e3844]:
+                                - img "Attachments" [ref=e3846]
+                                - gridcell "9:36 AM (3 hours ago)" [ref=e3847]
+                                - checkbox "Not starred" [ref=e3849] [cursor=pointer]
+                            - cell
+                            - cell "Add reaction Reply More message options" [ref=e3851]:
+                              - generic [ref=e3853]:
+                                - button "Add reaction" [ref=e3854] [cursor=pointer]:
+                                  - img [ref=e3857]
+                                - tooltip [ref=e3860]: Add reaction
+                              - generic [ref=e3861]:
+                                - button "Reply" [ref=e3862] [cursor=pointer]:
+                                  - img [ref=e3865]
+                                - tooltip [ref=e3868]: Reply
+                              - generic "More message options" [ref=e3869]:
+                                - generic [ref=e3871]:
+                                  - button "More message options" [ref=e3872] [cursor=pointer]:
+                                    - img [ref=e3874]
+                                  - tooltip [ref=e3877]: More
+                          - row "to me Show details" [ref=e3878]:
+                            - cell "to me Show details" [ref=e3879]:
+                              - table [ref=e3880]:
+                                - rowgroup [ref=e3881]:
+                                  - row "to me Show details" [ref=e3882]:
+                                    - cell "to me Show details" [ref=e3883]:
+                                      - generic [ref=e3885]: to me
+                                      - button "Show details" [ref=e3886]
+                      - generic [ref=e3888]:
+                        - generic [ref=e3890]:
+                          - generic [ref=e3891]:
+                            - generic [ref=e3892]: 6 Attachments
+                            - generic [ref=e3893]: • Scanned by Gmail
+                            - img "Attachment scanning in Gmail To help protect your inbox, Gmail blocks attachments when malware is detected. You should still only download attachments from people you trust. Learn more Safer with Google logo" [ref=e3895]
+                          - generic [ref=e3896]:
+                            - generic [ref=e3897]:
+                              - button "Download all attachments" [ref=e3898] [cursor=pointer]:
+                                - img [ref=e3901]
+                              - tooltip [ref=e3904]: Download all attachments
+                            - button "Add all to Drive" [ref=e3907] [cursor=pointer]:
+                              - img [ref=e3911]
+                              - generic [ref=e3913]: Add all to Drive
+                        - generic [ref=e3914]:
+                          - generic [ref=e3915]:
+                            - link "Preview attachment 123_1.jpeg Preview attachment 123_1.jpeg" [ref=e3916] [cursor=pointer]:
+                              - /url: https://mail.google.com/mail/u/0?ui=2&ik=1d1c1debad&attid=0.1&permmsgid=msg-a:r-3100908270513384466&th=19c19d94aa64acea&view=att&disp=safe&realattid=19c19d659cb97918f042&zw
+                              - generic [ref=e3917]: Preview attachment 123_1.jpeg
+                              - generic [ref=e3918]: Preview attachment 123_1.jpeg
+                              - generic [ref=e3922]:
+                                - img [ref=e3923]
+                                - generic [ref=e3924]:
+                                  - img [ref=e3926]
+                                  - generic [ref=e3929]: 123_1.jpeg
+                            - generic [ref=e3932]:
+                              - generic:
+                                - button "Download attachment 123_1.jpeg" [ref=e3933] [cursor=pointer]:
+                                  - img [ref=e3935]
+                                - tooltip [ref=e3938]: Download
+                              - generic:
+                                - button "Add attachment to Drive 123_1.jpeg" [ref=e3939] [cursor=pointer]:
+                                  - img [ref=e3942]
+                                - tooltip [ref=e3945]: Add to Drive
+                              - tooltip [ref=e3946]: Edit with
+                              - generic:
+                                - button "Save to Photos" [ref=e3947] [cursor=pointer]:
+                                  - img [ref=e3950]
+                                - tooltip [ref=e3953]: Save to Photos
+                          - generic [ref=e3954]:
+                            - link "Preview attachment IMG_5373.png Preview attachment IMG_5373.png" [ref=e3955] [cursor=pointer]:
+                              - /url: https://mail.google.com/mail/u/0?ui=2&ik=1d1c1debad&attid=0.2&permmsgid=msg-a:r-3100908270513384466&th=19c19d94aa64acea&view=att&disp=safe&realattid=19c19d659c3cd235b8d1&zw
+                              - generic [ref=e3956]: Preview attachment IMG_5373.png
+                              - generic [ref=e3957]: Preview attachment IMG_5373.png
+                              - generic [ref=e3961]:
+                                - img [ref=e3962]
+                                - generic [ref=e3963]:
+                                  - img [ref=e3965]
+                                  - generic [ref=e3968]: IMG_5373.png
+                            - generic [ref=e3971]:
+                              - generic:
+                                - button "Download attachment IMG_5373.png" [ref=e3972] [cursor=pointer]:
+                                  - img [ref=e3974]
+                                - tooltip [ref=e3977]: Download
+                              - generic:
+                                - button "Add attachment to Drive IMG_5373.png" [ref=e3978] [cursor=pointer]:
+                                  - img [ref=e3981]
+                                - tooltip [ref=e3984]: Add to Drive
+                              - tooltip [ref=e3985]: Edit with
+                              - generic:
+                                - button "Save to Photos" [ref=e3986] [cursor=pointer]:
+                                  - img [ref=e3989]
+                                - tooltip [ref=e3992]: Save to Photos
+                          - generic [ref=e3993]:
+                            - link "Preview attachment IMG_5368.png Preview attachment IMG_5368.png" [ref=e3994] [cursor=pointer]:
+                              - /url: https://mail.google.com/mail/u/0?ui=2&ik=1d1c1debad&attid=0.3&permmsgid=msg-a:r-3100908270513384466&th=19c19d94aa64acea&view=att&disp=safe&realattid=19c19d65a151827aa914&zw
+                              - generic [ref=e3995]: Preview attachment IMG_5368.png
+                              - generic [ref=e3996]: Preview attachment IMG_5368.png
+                              - generic [ref=e4000]:
+                                - img [ref=e4001]
+                                - generic [ref=e4002]:
+                                  - img [ref=e4004]
+                                  - generic [ref=e4007]: IMG_5368.png
+                            - generic [ref=e4010]:
+                              - generic:
+                                - button "Download attachment IMG_5368.png" [ref=e4011] [cursor=pointer]:
+                                  - img [ref=e4013]
+                                - tooltip [ref=e4016]: Download
+                              - generic:
+                                - button "Add attachment to Drive IMG_5368.png" [ref=e4017] [cursor=pointer]:
+                                  - img [ref=e4020]
+                                - tooltip [ref=e4023]: Add to Drive
+                              - tooltip [ref=e4024]: Edit with
+                              - generic:
+                                - button "Save to Photos" [ref=e4025] [cursor=pointer]:
+                                  - img [ref=e4028]
+                                - tooltip [ref=e4031]: Save to Photos
+                          - generic [ref=e4032]:
+                            - link "Preview attachment IMG_5371.png Preview attachment IMG_5371.png" [ref=e4033] [cursor=pointer]:
+                              - /url: https://mail.google.com/mail/u/0?ui=2&ik=1d1c1debad&attid=0.4&permmsgid=msg-a:r-3100908270513384466&th=19c19d94aa64acea&view=att&disp=safe&realattid=19c19d65a57497338b5&zw
+                              - generic [ref=e4034]: Preview attachment IMG_5371.png
+                              - generic [ref=e4035]: Preview attachment IMG_5371.png
+                              - generic [ref=e4039]:
+                                - img [ref=e4040]
+                                - generic [ref=e4041]:
+                                  - img [ref=e4043]
+                                  - generic [ref=e4046]: IMG_5371.png
+                            - generic [ref=e4049]:
+                              - generic:
+                                - button "Download attachment IMG_5371.png" [ref=e4050] [cursor=pointer]:
+                                  - img [ref=e4052]
+                                - tooltip [ref=e4055]: Download
+                              - generic:
+                                - button "Add attachment to Drive IMG_5371.png" [ref=e4056] [cursor=pointer]:
+                                  - img [ref=e4059]
+                                - tooltip [ref=e4062]: Add to Drive
+                              - tooltip [ref=e4063]: Edit with
+                              - generic:
+                                - button "Save to Photos" [ref=e4064] [cursor=pointer]:
+                                  - img [ref=e4067]
+                                - tooltip [ref=e4070]: Save to Photos
+                          - generic [ref=e4071]:
+                            - link "Preview attachment 123_1.jpeg Preview attachment 123_1.jpeg" [ref=e4072] [cursor=pointer]:
+                              - /url: https://mail.google.com/mail/u/0?ui=2&ik=1d1c1debad&attid=0.5&permmsgid=msg-a:r-3100908270513384466&th=19c19d94aa64acea&view=att&disp=safe&realattid=19c19d659d197918f043&zw
+                              - generic [ref=e4073]: Preview attachment 123_1.jpeg
+                              - generic [ref=e4074]: Preview attachment 123_1.jpeg
+                              - generic [ref=e4078]:
+                                - img [ref=e4079]
+                                - generic [ref=e4080]:
+                                  - img [ref=e4082]
+                                  - generic [ref=e4085]: 123_1.jpeg
+                            - generic [ref=e4088]:
+                              - generic:
+                                - button "Download attachment 123_1.jpeg" [ref=e4089] [cursor=pointer]:
+                                  - img [ref=e4091]
+                                - tooltip [ref=e4094]: Download
+                              - generic:
+                                - button "Add attachment to Drive 123_1.jpeg" [ref=e4095] [cursor=pointer]:
+                                  - img [ref=e4098]
+                                - tooltip [ref=e4101]: Add to Drive
+                              - tooltip [ref=e4102]: Edit with
+                              - generic:
+                                - button "Save to Photos" [ref=e4103] [cursor=pointer]:
+                                  - img [ref=e4106]
+                                - tooltip [ref=e4109]: Save to Photos
+                          - generic [ref=e4110]:
+                            - link "Preview attachment 123_1.jpeg Preview attachment 123_1.jpeg" [ref=e4111] [cursor=pointer]:
+                              - /url: https://mail.google.com/mail/u/0?ui=2&ik=1d1c1debad&attid=0.8&permmsgid=msg-a:r-3100908270513384466&th=19c19d94aa64acea&view=att&disp=safe&realattid=19c19d9346f97918f046&zw
+                              - generic [ref=e4112]: Preview attachment 123_1.jpeg
+                              - generic [ref=e4113]: Preview attachment 123_1.jpeg
+                              - generic [ref=e4117]:
+                                - img [ref=e4118]
+                                - generic [ref=e4119]:
+                                  - img [ref=e4121]
+                                  - generic [ref=e4124]: 123_1.jpeg
+                            - generic [ref=e4127]:
+                              - generic:
+                                - button "Download attachment 123_1.jpeg" [ref=e4128] [cursor=pointer]:
+                                  - img [ref=e4130]
+                                - tooltip [ref=e4133]: Download
+                              - generic:
+                                - button "Add attachment to Drive 123_1.jpeg" [ref=e4134] [cursor=pointer]:
+                                  - img [ref=e4137]
+                                - tooltip [ref=e4140]: Add to Drive
+                              - tooltip [ref=e4141]: Edit with
+                              - generic:
+                                - button "Save to Photos" [ref=e4142] [cursor=pointer]:
+                                  - img [ref=e4145]
+                                - tooltip [ref=e4148]: Save to Photos
+            - generic [ref=e4154]:
+              - link "Reply" [ref=e4155] [cursor=pointer]
+              - link "Forward" [ref=e4156] [cursor=pointer]
+              - generic [ref=e4158]:
+                - button "Add reaction" [ref=e4159] [cursor=pointer]:
+                  - img [ref=e4162]
+                - tooltip [ref=e4165]: Add reaction
+      - generic [ref=e1682]:
+        - complementary "Side panel" [ref=e1683]:
+          - tablist [ref=e1809]:
+            - tab "Calendar"
+            - tab "Keep"
+            - tab "Tasks"
+            - tab "Contacts"
+            - separator [disabled] [ref=e1810]
+            - tab "Trello"
+            - tab "Mail Track for Gmail"
+            - tab "Get Add-ons"
+        - generic:
+          - button "Hide side panel":
+            - img [ref=e1815] [cursor=pointer]

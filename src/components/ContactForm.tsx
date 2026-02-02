@@ -374,10 +374,10 @@ export function ContactForm() {
       <p className="text-center text-text-muted">
         We'll respond within 24 hours. For urgent requests, please call{' '}
         <a
-          href="tel:+15551234567"
+          href="tel:+19723797050"
           className="text-primary-700 font-semibold hover:underline"
         >
-          (555) 123-4567
+          (972) 379-7050
         </a>
       </p>
     </form>

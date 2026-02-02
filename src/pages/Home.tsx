@@ -1,10 +1,11 @@
 import { Hero } from '../components/sections/Hero'
 import { Services } from '../components/sections/Services'
 import { About } from '../components/sections/About'
-import { ServiceArea } from '../components/sections/ServiceArea'
 import { Testimonials } from '../components/sections/Testimonials'
-import { BlogPreview } from '../components/sections/BlogPreview'
+import { ServiceArea } from '../components/sections/ServiceArea'
+import { FAQ } from '../components/sections/FAQ'
 import { Contact } from '../components/sections/Contact'
+import { BlogPreview } from '../components/sections/BlogPreview'
 
 export function Home() {
   return (
@@ -12,10 +13,11 @@ export function Home() {
       <Hero />
       <Services />
       <About />
-      <ServiceArea />
       <Testimonials />
-      <BlogPreview />
+      <ServiceArea />
+      <FAQ />
       <Contact />
+      <BlogPreview />
     </>
   )
 }

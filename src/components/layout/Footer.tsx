@@ -66,14 +66,14 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Clock className="w-5 h-5 flex-shrink-0" />
                 <div>
-                  <p>Monday - Friday: 8am - 7pm</p>
-                  <p>Saturday: 9am - 5pm</p>
-                  <p>Sunday: By appointment</p>
+                  <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                  <p>Saturday: 8:00 AM - 5:00 PM</p>
+                  <p>Sunday: Closed</p>
                 </div>
               </li>
             </ul>
             <p className="mt-4 text-accent-400 font-medium">
-              Emergency appointments available
+              After hours appointments available
             </p>
           </div>
 
